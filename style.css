@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    font: "Poppins Semi Bold" ;
+}
+
+.logo-left{
+
+}
+
+
+.navbar{
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right > * {
+    margin: 5px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.Login{
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 6px 10px 6px 10px;
+}
+
+.Register{
+    font-weight: 500;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    padding: 6px 10px 6px 10px;
+}
+
+.Register{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.pop-up{
+    display: flex;
+    font-size: 17px;
+}
+
+.pop-up > * {
+    padding: 30px;
+}
+
+.Search-Dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.Search-Dropdown > * {
+    margin: 5px;
+}
+
+.SearchBox{
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px 100px 20px 100px;
+}
+
+.Dropdown-Kategori{
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px 100px 20px 100px;
+}
+
+.Dropdown-Lokasi{
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px 100px 20px 100px;
+}
