@@ -69,6 +69,10 @@ body{
     padding: 10px 100px 20px 100px;
 }
 
+.form{
+    
+}
+
 .Dropdown-Kategori{
     font-weight: 600;
     border:1px solid black;
@@ -81,4 +85,8 @@ body{
     border:1px solid black;
     border-radius: 10px;
     padding: 10px 100px 20px 100px;
+}
+
+.Filter{
+    
 }
