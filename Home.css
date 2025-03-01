@@ -1,0 +1,479 @@
+header{
+
+}
+
+.logo-web{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #124E66;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    margin: 5px;
+}
+
+.navBar a{
+    float: left;
+    color: #D3D9D4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: 20px;
+}
+
+.navBar a:hover{
+    color: #eff4f0;
+}
+
+.navBar a.active {
+    color: #748D92;
+}
+
+.navBar > *{
+    margin: 12px;
+}
+
+.loginBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 27%;
+    margin: 5px;
+}
+
+#login-Home{
+    border: 1px solid #D3D9D4;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#sebagaiPerusahaan{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#login-Home:hover{
+    background-color: #748D92;
+}
+
+#sebagaiPerusahaan:hover{
+    color: #eff4f0;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 2.5%;
+}
+
+.searchBar > *{
+    margin: 0.5%;
+}
+
+#searchLowongan{
+    width: 25%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.dropbtn-klasifikasi {
+    width: 30%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropbtn-jenisPekerjaan {
+    width: 30%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#hasilPencarian{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+#filterId{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: right;
+    margin-left: 87.5%;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    border: none solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#filterId:hover{
+    color: #676767;
+}
+
+.content1{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-box1{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box1 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box1 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#infoTgl{
+    font-size: 15px;
+    color: gray;
+}
+
+.content2{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
+
+.content-box2{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box2 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box2 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+.content3{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
+
+.content-box3{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box3 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box3 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+.content4{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
+
+.content-box4{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box4 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box4 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+.content5{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
+
+.content-box5{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box5 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box5 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+.content6{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
+
+.content-box6{
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+.content-box6 h2{
+    font-size: 25px;
+    margin-top: -0.5px;
+    margin-left: 0.5%;
+}
+
+.content-box6 p{
+    margin-top: -15px;
+    margin-left: 0.5%;
+    font-size: 18px;
+}
+
+#simpanBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+#selengkapnyaBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+footer{
+    background-color: #191919;
+    color: white;
+}

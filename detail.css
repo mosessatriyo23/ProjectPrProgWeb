@@ -1,0 +1,189 @@
+header{
+
+}
+
+.logo-web{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #124E66;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    margin: 5px;
+}
+
+.navBar a{
+    float: left;
+    color: #D3D9D4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: 20px;
+}
+
+.navBar a:hover{
+    color: #eff4f0;
+}
+
+.navBar a.active {
+    color: #748D92;
+}
+
+.navBar > *{
+    margin: 12px;
+}
+
+.loginBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 27%;
+    margin: 5px;
+}
+
+#login-Home{
+    border: 1px solid #D3D9D4;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#sebagaiPerusahaan{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#login-Home:hover{
+    background-color: #748D92;
+}
+
+#sebagaiPerusahaan:hover{
+    color: #eff4f0;
+}
+
+.detailContent1{
+    margin-left: 22.5%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+.detailContent1 .rating{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.rating-bar{
+    padding-top: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.detailContent1, img{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-lengkap{
+    margin-top: 2.5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#heartRating{
+    height: auto;
+    margin: -4px 5px;
+    display: inline-flex;
+}
+
+#ulasan{
+    text-decoration: underline;
+    color: gray;
+}
+
+#placeHolder{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#jobdesk{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#jenis{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#gaji{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#posted{
+    font-size: 15px;
+    color: gray;
+    margin-top: 2.5%;
+    padding-bottom: 15px;
+}
+
+
+#simpanBtnHome{
+    background-color: white;
+    color: #3498DB;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#simpanBtnHome:hover{
+    background-color: #45a8eb;
+    color: white;
+}
+
+#ajukanLamaranBtnHome{
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#ajukanLamaranBtnHome:hover{
+    background-color: #45a8eb;
+}
+
+footer{
+    background-color: #191919;
+    color: white;
+}
