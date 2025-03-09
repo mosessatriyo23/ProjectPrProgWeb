@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lamaran.css">
+    <title>Find Job</title>
+    <Header>
+        <div class="logo-web">
+            <img src="img/Logo-WEB.png" alt="Logo-WEB.PNG" width="75">
+            <p>Find <br> Job.</p>
+            <div class="navBar">
+                <a class="active" href="#home">Info Lowongan</a>
+                <a href="#Profile">Profil Perusahaan</a>
+                <a href="#SedangHangat">Sedang Hangat</a>
+                <a href="#Tersimpan">Tersimpan</a>
+            </div>
+            <div class="loginBar">
+                <a href="login" id="login-Home">Login</a>
+                <a href="sebagaiPerusahaan" id="sebagaiPerusahaan">Sebagai Perusahaan</a>
+            </div>
+        </div>
+    </Header>
+    <hr>
+</head>
+<body>
+    <div class="perusahaanLamaran">
+        <img src="img/BCA finance.jpg" alt="LogoPerusahaan.png" width="125">
+        <p>Form Lamaran</p>
+        <h2>Sekretaris</h2>
+        <h4>PT BCA Finance</h4>
+    </div>
+    <br>
+    <div class="formDataDiri">
+        <h1>Data Diri</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <label for="first-name">Nama depan</label>
+                        <input type="text" id="namaDepanField" required>            
+                    </td>
+                    <td>  
+                        <label for="last-name">Nama belakang</label>
+                        <input type="text" id="namaBelakangField">
+                    </td>
+                </tr>
+            </table>
+            <label for="location">Lokasi rumah</label>
+            <input type="text" id="lokasiRumahField" placeholder="Masukkan kabupaten atau kota">
+            
+            <label for="phone-code">Nomor telepon</label>
+            <select id="kodePos">
+                <option value="">Pilih kode negara</option>
+                <option value="">Indonesia (+62)</option>
+                <option value="">Australia (+61)</option>
+                <option value="">Inggris (+44)</option>
+            </select>
+            <input type="text" id="noTelpon" placeholder="Masukkan nomor telepon">
+            
+            <label for="email">Alamat email</label>
+            <input type="email" id="email" value="mosessatrio18@gmail.com">
+            
+            <button type="submit" id="submit">Simpan</button>
+        </form>
+    </div>
+</body>
+</html>

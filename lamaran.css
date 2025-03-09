@@ -1,0 +1,194 @@
+header{
+
+}
+
+.logo-web{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #124E66;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    margin: 5px;
+}
+
+.navBar a{
+    float: left;
+    color: #D3D9D4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: 20px;
+}
+
+.navBar a:hover{
+    color: #eff4f0;
+}
+
+.navBar a.active {
+    color: #748D92;
+}
+
+.navBar > *{
+    margin: 12px;
+}
+
+.loginBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 27%;
+    margin: 5px;
+}
+
+#login-Home{
+    border: 1px solid #D3D9D4;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#sebagaiPerusahaan{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D3D9D4;
+    margin: 5px;
+}
+
+#login-Home:hover{
+    background-color: #748D92;
+}
+
+#sebagaiPerusahaan:hover{
+    color: #eff4f0;
+}
+
+.perusahaanLamaran img{
+    border: 2px solid #c3c2c2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 22.5%;
+    margin-right: 2.5%;
+    float: left;
+}
+
+.perusahaanLamaran,p h2 h4{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formDataDiri h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formDataDiri{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.formDataDiri p{
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.formDataDiri span{
+    color: red;
+}
+
+#namaDepanField{
+    width: 90%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#namaBelakangField{
+    width: 90%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#lokasiRumahField{
+    width: 90%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#kodePos{
+    width: 61%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#noTelpon{
+    width: 58%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#email{
+    width: 58%;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#submit{
+    display: flex;
+}

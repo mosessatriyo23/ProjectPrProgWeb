@@ -75,9 +75,12 @@ header{
 }
 
 .detailContent1{
-    margin-left: 22.5%;
-    margin-right: 20%;
-    text-align: left;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-left: 30%;
 }
 
 .detailContent1 .rating{
@@ -181,6 +184,70 @@ header{
 
 #ajukanLamaranBtnHome:hover{
     background-color: #45a8eb;
+}
+
+tr{
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.detailPerusahaan1{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin-left: 10%;
+}
+
+.detailPerusahaan1 .ratingPerusahaan{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.detailPerusahaan1, img{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPerusahaan{
+    margin-top: 2.5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#namaPerusahaan{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#pegawai{
+    height: auto;
+    margin: -4px 0px;
+    display: inline-flex;
+    padding-right: 2px;
+}
+
+#selengkapnyaBtnPerusahaan{
+    background-color: white;
+    color: gray;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#selengkapnyaBtnPerusahaan:hover{
+    background-color: gray;
+    color: white;
 }
 
 footer{
