@@ -1,5 +1,6 @@
 header{
-
+    position: sticky;
+    top: 0px;
 }
 
 .logo-web{
@@ -68,10 +69,33 @@ header{
 
 #login-Home:hover{
     background-color: #748D92;
+    color: #124E66;
 }
 
 #sebagaiPerusahaan:hover{
     color: #eff4f0;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb a {
+    text-decoration: underline;
+    color: #D3D9D4;
+}
+
+.breadcrumb a:hover {
+    text-decoration: None;
+    color: blue;
 }
 
 .searchBar{
@@ -140,9 +164,15 @@ header{
 }
 
 .content1{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
 }
 
 .content-box1{
@@ -163,14 +193,14 @@ header{
 }
 
 #simpanBtnHome{
-    background-color: #3498DB;
-    color: white;
+    background-color: white;
+    color: #3498DB;
     padding: 12px;
     font-size: 16px;
-    border: none;
+    border: 1px solid;
     border-radius: 10px;
     cursor: pointer;
-    margin-bottom: 15px;
+    text-decoration: none;
 }
 
 #simpanBtnHome:hover{
@@ -199,10 +229,15 @@ header{
 }
 
 .content2{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1%;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;;
 }
 
 .content-box2{
@@ -254,10 +289,15 @@ header{
 }
 
 .content3{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1%;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
 }
 
 .content-box3{
@@ -278,18 +318,19 @@ header{
 }
 
 #simpanBtnHome{
-    background-color: #3498DB;
-    color: white;
+    background-color: white;
+    color: #3498DB;
     padding: 12px;
     font-size: 16px;
-    border: none;
+    border: 1px solid;
     border-radius: 10px;
     cursor: pointer;
-    margin-bottom: 15px;
+    text-decoration: none;
 }
 
 #simpanBtnHome:hover{
     background-color: #45a8eb;
+    color: white;
 }
 
 #selengkapnyaBtnHome{
@@ -309,10 +350,15 @@ header{
 }
 
 .content4{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1%;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
 }
 
 .content-box4{
@@ -364,10 +410,15 @@ header{
 }
 
 .content5{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1%;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
 }
 
 .content-box5{
@@ -419,10 +470,15 @@ header{
 }
 
 .content6{
-    border: 2px solid black;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1%;
+    width: 75em;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
 }
 
 .content-box6{
@@ -475,5 +531,21 @@ header{
 
 footer{
     background-color: #191919;
+    color: white;
+    padding: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+td > p{
+    text-indent: 38px;
+    font-size: 20px;
+    display: flex;
+}
+
+td > a{
+    text-decoration: none;
     color: white;
 }
