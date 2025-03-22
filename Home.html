@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="detail.css">
     <title>Find Job</title>
     <Header>
         <div class="logo-web">
@@ -17,21 +17,34 @@
                 <a href="#Tersimpan">Tersimpan</a>
             </div>
             <div class="loginBar">
-                <a href="login" id="login-Home">Login</a>
-                <a href="sebagaiPerusahaan" id="sebagaiPerusahaan">Sebagai Perusahaan</a>
+                <a href="login.html" id="login-Home">Login</a>
+                <a href="login.html" id="sebagaiPerusahaan">Sebagai Perusahaan</a>
             </div>
         </div>
     </Header>
     <ul class="breadcrumb">
-        <li><a href="Home.html">Home</a></li>
+        <li><a id="bcActive" href="Home.html">Home</a></li>
    </ul>
     <hr>
 </head>
 <body>
     <div class="searchBar">
-        <input type="text" id="searchLowongan" placeholder="Cari Lowongan..."> 
-        <button class="dropbtn-klasifikasi">Pilih Klasifikasi</button>
-        <button class="dropbtn-jenisPekerjaan">Pilih Jenis Pekerjaan</button>
+        <input type="text" id="searchLowongan" placeholder="Cari Lowongan"> 
+        <select class="dropdown-klasifikasi">
+            <option value="" disabled selected>Pilih Klasifikasi</option>
+            <option value="IT">IT & Software</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="HR">Human Resource</option>
+        </select>
+        <select class="dropdown-jenis">
+            <option value="" disabled selected>Pilih Jenis Pekerjaan</option>
+            <option value="IT">Full Time</option>
+            <option value="Finance">Part Time</option>
+            <option value="Marketing">Kontrak</option>
+            <option value="HR">Casual</option>
+        </select>
+        <a href="#" id="searchingg"><img src="img/search.png" alt="" width="21"></a>
     </div>
     <a href="#filter" id="filterId"> <img src="" alt=""> Filter</a>
     <p id="hasilPencarian">Disarankan:</p>
@@ -68,58 +81,58 @@
     </div>
     <div class="content3">
         <div class="content-box3">
-            <img src="img/Mandiri.jpg" alt="LogoPerusahaan.png" width="150">
-            <h2>PT BCA Finance</h2>
-            <p>Recovery Officer Program BCA Finance <br></p>
+            <a href="https://www.olifantschool.com/?lang=id" target="_blank"><img src="img/olifant school.png" alt="logo olifant" width="100"></a>
+            <h2>Olifant School Yogyakarta</h2>
+            <p>Elementary Teacher <br></p>
             <br>
             <br>
             <P>Sleman, Yogyakarta</P>
-            <p>Kredit (Perbankan & Finansial)</p>
+            <p>Penagjaran - Pendidikan Dasar(Pendidikan & Pelatihan)</p>
             <br>
-            <p id="infoTgl">25 hari yang lalu</p>
+            <p id="infoTgl">18 hari yang lalu</p>
             <button id="simpanBtnHome">Simpan</button>
-            <a href="detail.html" id="selengkapnyaBtnHome">Selengkapnya</a>
+            <a href="detail edu.html" id="selengkapnyaBtnHome">Selengkapnya</a>
         </div>
     </div>
     <div class="content4">
         <div class="content-box4">
-            <img src="img/Mandiri.jpg" alt="LogoPerusahaan.png" width="150">
-            <h2>PT BCA Finance</h2>
-            <p>Recovery Officer Program BCA Finance <br></p>
+            <a href="https://jogjacommunityschool.org/" target="_blank"><img src="img/jcs school.png" alt="Logo jcschool" width="250"></a>
+            <h2>Jogjakarta Community School</h2>
+            <p>English Teacher(English as an Additional Language) <br></p>
             <br>
             <br>
-            <P>Sleman, Yogyakarta</P>
-            <p>Kredit (Perbankan & Finansial)</p>
+            <P>Yogyakarta</P>
+            <p>Pengajaran - Pendidikan Menengah(Pendidikan & Pelatihan)</p>
             <br>
-            <p id="infoTgl">25 hari yang lalu</p>
+            <p id="infoTgl">15 hari yang lalu</p>
             <button id="simpanBtnHome">Simpan</button>
             <a href="detail.html" id="selengkapnyaBtnHome">Selengkapnya</a>
         </div>
     </div>
     <div class="content5">
         <div class="content-box5">
-            <img src="img/Mandiri.jpg" alt="LogoPerusahaan.png" width="150">
-            <h2>PT BCA Finance</h2>
-            <p>Recovery Officer Program BCA Finance <br></p>
+            <img src="img/gameloft.jpeg" alt="LogoPerusahaan.png" width="150">
+            <h2>PT Gameloft Indonesia</h2>
+            <p>QA Engineer<br></p>
             <br>
             <br>
-            <P>Sleman, Yogyakarta</P>
-            <p>Kredit (Perbankan & Finansial)</p>
+            <P>Kota Yogyakarta, Yogyakarta</P>
+            <p>Teknologi Informasi dan Komunikasi</p>
             <br>
-            <p id="infoTgl">25 hari yang lalu</p>
+            <p id="infoTgl">1 hari yang lalu</p>
             <button id="simpanBtnHome">Simpan</button>
             <a href="detail.html" id="selengkapnyaBtnHome">Selengkapnya</a>
         </div>
     </div>
     <div class="content6">
         <div class="content-box6">
-            <img src="img/Mandiri.jpg" alt="LogoPerusahaan.png" width="150">
-            <h2>PT BCA Finance</h2>
-            <p>Recovery Officer Program BCA Finance <br></p>
+            <img src="img/cimbniaga.jpeg" alt="LogoPerusahaan.png" width="150">
+            <h2>PT CIMB Niaga Tbk</h2>
+            <p>CIPTA IT Testing Management <br></p>
             <br>
             <br>
-            <P>Sleman, Yogyakarta</P>
-            <p>Kredit (Perbankan & Finansial)</p>
+            <P>Klaten, Jawa Tengah</P>
+            <p>Teknologi Informasi dan Komunikasi</p>
             <br>
             <p id="infoTgl">25 hari yang lalu</p>
             <button id="simpanBtnHome">Simpan</button>
@@ -128,41 +141,19 @@
     </div>
     <br>
     <br>
-    <hr>
-    <footer>
-        <table>
-            <tr>
-                <td>
-                    <a href="#">Tentang Kami</a>
-                </td>
-                <td>
-                    <a href="">Pusat Bantuan</a>
-                </td>
-            </tr>
-            <tr> 
-                <td>
-                    <a href="">Karir</a>
-                </td>
-                <td>
-                    <a href="">Hubungi Kami</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="">Investor</a>
-                </td>
-                <td>
-                    <a href="">Facebook</a>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <a href="">X</a>
-                </td>
-            </tr>
-
-        </table>
+    <footer class="footer">
+        <div class="footer-kotak">
+            <div class="footer-logo">
+                <img src="img/Logo-WEB.png" alt="logo" width="50px">
+                <p><b>Find Job.</b></p>
+            </div>
+            <div class="footer-kelompok">
+                <a href="#">Moses Satriyo</a>
+                <a href="#">Nicholas Ayodya</a>
+                <a href="#">Arthur Benedict</a>
+                <span>© 2025 Find Job.</span>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

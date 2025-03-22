@@ -9,7 +9,8 @@ header{
     width: 100%;
     background-color: #124E66;
     overflow: auto;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .navBar{
@@ -69,7 +70,14 @@ header{
 
 #login-Home:hover{
     background-color: #748D92;
-    color: #124E66;
+}
+
+#sebagaiPerusahaan:hover{
+    color: #eff4f0;
+}
+
+#login-Home:hover{
+    background-color: #748D92;
 }
 
 #sebagaiPerusahaan:hover{
@@ -90,12 +98,13 @@ header{
 
 .breadcrumb a {
     text-decoration: underline;
-    color: #D3D9D4;
+    color: #748D92;
+    text-decoration: none;
 }
 
 .breadcrumb a:hover {
     text-decoration: None;
-    color: blue;
+    color: #748D92;
 }
 
 .searchBar{
@@ -117,14 +126,38 @@ header{
     border-radius: 10px;
 }
 
-.dropbtn-klasifikasi {
+.dropdown-klasifikasi {
     width: 30%;
-    font-size: 18px;
-    padding: 11px;
+    height: 46px;
     border: 2px solid black;
     border-radius: 10px;
-    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
     background-color: white;
+    cursor: pointer;
+    color: grey;
+}
+
+.dropdown-klasifikasi {
+    outline: none;
+    border-color: #124E66; 
+}
+
+.dropdown-jenis {
+    width: 30%;
+    height: 46px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    color: grey;
+}
+
+.dropdown-jenis {
+    outline: none;
+    border-color: #124E66; 
 }
 
 .dropbtn-jenisPekerjaan {
@@ -166,13 +199,15 @@ header{
 .content1{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1%;
 }
 
 .content-box1{
@@ -231,13 +266,15 @@ header{
 .content2{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
-    margin: auto;;
+    margin: auto;
+    margin-bottom: 1%
 }
 
 .content-box2{
@@ -291,13 +328,15 @@ header{
 .content3{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1%
 }
 
 .content-box3{
@@ -352,13 +391,15 @@ header{
 .content4{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1%
 }
 
 .content-box4{
@@ -412,13 +453,15 @@ header{
 .content5{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1%
 }
 
 .content-box5{
@@ -472,13 +515,15 @@ header{
 .content6{
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 75em;
+    width: 90%;
+    max-width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1%
 }
 
 .content-box6{
@@ -529,23 +574,40 @@ header{
     background-color: #45a8eb;
 }
 
-footer{
-    background-color: #191919;
-    color: white;
-    padding: 50px;
+.footer {
+    background-color: white;
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    overflow: auto;
 }
 
-li{
-    list-style-type: none;
-}
-
-td > p{
-    text-indent: 38px;
-    font-size: 20px;
+.footer-kotak {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 
-td > a{
+.footer-logo {
+    float: right;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-kelompok {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-kelompok a {
     text-decoration: none;
-    color: white;
+    color: #007bff;
+}
+
+.footer-kelompok a:hover {
+    text-decoration: underline;
 }

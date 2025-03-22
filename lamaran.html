@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lamaran.css">
+    <link rel="stylesheet" href="detail.css">
     <title>Find Job</title>
     <Header>
         <div class="logo-web">
@@ -22,48 +22,59 @@
             </div>
         </div>
     </Header>
+    <ul class="breadcrumb">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="detail.html">Detail</a></li>
+        <li><a id="lmactive" href="lamaran.html">Form Lamaran</a></li>
+   </ul>
     <hr>
 </head>
 <body>
     <div class="perusahaanLamaran">
         <img src="img/BCA finance.jpg" alt="LogoPerusahaan.png" width="125">
-        <p>Form Lamaran</p>
-        <h2>Sekretaris</h2>
-        <h4>PT BCA Finance</h4>
+        <div class="perusahaan-text">
+            <p>Form Lamaran</p>
+            <h2>Sekretaris</h2>
+            <h4>PT BCA Finance</h4>
+        </div>
     </div>
     <br>
     <div class="formDataDiri">
-        <h1>Data Diri</h1>
-        <form action="">
-            <table>
-                <tr>
-                    <td>
-                        <label for="first-name">Nama depan</label>
-                        <input type="text" id="namaDepanField" required>            
-                    </td>
-                    <td>  
-                        <label for="last-name">Nama belakang</label>
-                        <input type="text" id="namaBelakangField">
-                    </td>
-                </tr>
-            </table>
-            <label for="location">Lokasi rumah</label>
-            <input type="text" id="lokasiRumahField" placeholder="Masukkan kabupaten atau kota">
-            
-            <label for="phone-code">Nomor telepon</label>
-            <select id="kodePos">
-                <option value="">Pilih kode negara</option>
-                <option value="">Indonesia (+62)</option>
-                <option value="">Australia (+61)</option>
-                <option value="">Inggris (+44)</option>
-            </select>
-            <input type="text" id="noTelpon" placeholder="Masukkan nomor telepon">
-            
+        <h1>Pengajuan Lamaran</h1>
+        <form action="congrats.html" method="post">
+            <label for="first-name">Nama lengkap</label>
+            <input type="text" id="namalengkapField" placeholder="Masukkan nama lengkap anda" required>            
+            <label for="location">Tanggal Lahir</label>
+            <input type="date" id="tgllahirField" required>
             <label for="email">Alamat email</label>
-            <input type="email" id="email" value="mosessatrio18@gmail.com">
-            
+            <input type="email" id="email" value="example@gmail.com" required>
+            <label for="phone-code">Nomor telepon</label>
+            <input type="text" id="noTelpon" placeholder="Masukkan nomor telepon" required>
+            <label for="CV">CV</label>
+            <input type="file" id="CVField" accept=".pdf" required>
+            <label for="Portofolio">Portofolio</label>
+            <input type="file" id="portoField" accept=".pdf,.png,.jpeg" required>
+            <label for="Surat Lamaran">Surat Lamaran</label>
+            <input type="file" id="suratlmrnField" accept=".pdf,.png,.jpeg" required>
+
             <button type="submit" id="submit">Simpan</button>
         </form>
     </div>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="footer-kotak">
+            <div class="footer-logo">
+                <img src="img/Logo-WEB.png" alt="logo" width="50px">
+                <p><b>Find Job.</b></p>
+            </div>
+            <div class="footer-kelompok">
+                <a href="#">Moses Satriyo</a>
+                <a href="#">Nicholas Ayodya</a>
+                <a href="#">Arthur Benedict</a>
+                <span>© 2025 Find Job.</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
