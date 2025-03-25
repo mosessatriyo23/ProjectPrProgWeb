@@ -1,0 +1,128 @@
+header{
+    position: sticky;
+    top: 0%;
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#searchnav{
+    height: 50%;
+    border-radius: 10px;
+    width: 150px;  
+}
+
+.btn > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 17px;
+}
+
+.btn a:hover{
+    color: #168c5f;
+}
+
+.btn a.active {
+    color: #168c5f;
+}
+
+.btn > *{
+    margin: 25px;
+}
+
+.login{
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-btn{
+    color: black;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#login-btn:hover{
+    color: #168c5f;
+    background-color: grey;
+}
+
+#sebagaiPerusahaan-btn{
+    text-decoration: none;
+    color: black;
+}
+
+#sebagaiPerusahaan-btn:hover{
+    color: #168c5f;
+}
+
+section{
+    text-align: center;
+
+}
+
+.hero-overlay{
+    margin-top: 15%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #111;
+}
+
+.highlight {
+    color: #168c5f;
+}
+
+.search-container {
+    justify-content: center;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.search-container input, .search-container select {
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+}
+.search-button {
+    background-color: #168c5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
